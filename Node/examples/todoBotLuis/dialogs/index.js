@@ -2,7 +2,9 @@ var builder = require('../../../');
 var prompts = require('../prompts');
 
 /** Return a LuisDialog that points at our model and then add intent handlers. */
-var model = process.env.model || 'https://api.projectoxford.ai/luis/v1/application?id=597f02c4-0aac-47e2-a64c-790c54f43e98&subscription-key=6d0966209c6e4f6b835ce34492f3e6d9&q=';
+//var model = process.env.model || 'https://api.projectoxford.ai/luis/v1/application?id=597f02c4-0aac-47e2-a64c-790c54f43e98&subscription-key=6d0966209c6e4f6b835ce34492f3e6d9&q=';
+var model = process.env.nmodel || 'https://api.projectoxford.ai/luis/v1/application?id=723d1520-b97e-47cd-81b2-f1646cd883c9&subscription-key=7e282443df6b4699b0fdc189cde863d5&q='
+
 var dialog = new builder.LuisDialog(model);
 module.exports = dialog;
 
