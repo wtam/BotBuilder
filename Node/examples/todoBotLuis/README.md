@@ -1,4 +1,4 @@
-Edit few example for my demo use
+My Edit: Use my own Luis for my demo
 
 # TodoBot
 A bot for managing a users to-do list using a natural language interface. Created tasks are saved to the session.userData object so are tracked per/user. For Slack you could easily change this to the session.channelData object and create a team wide task list.
