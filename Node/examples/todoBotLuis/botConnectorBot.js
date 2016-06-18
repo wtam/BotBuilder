@@ -9,8 +9,10 @@ var index = require('./dialogs/index')
 
 // Create bot and add dialogs
 var bot = new builder.BotConnectorBot({ 
-    appId: process.env.appId, 
-    appSecret: process.env.appSecret 
+    //appId: process.env.appId, 
+    //appSecret: process.env.appSecret 
+    appId: "723d1520-b97e-47cd-81b2-f1646cd883c9",
+    appSecret: "cd2cb114dcba4de3aeb6732f3d5c168b"
 });
 bot.add('/', index);
 
